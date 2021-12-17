@@ -7,3 +7,8 @@ function sub (num1 , num2){
     return num1-num2;
 }
 console.log(sub(2,4))
+
+function mul (num1 , num2){
+    return num1*num2;
+}
+console.log(mul(2,4))
