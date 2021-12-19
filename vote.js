@@ -1,15 +1,16 @@
-let bhavesh = {
+const bhavesh = {
     name:"Bhavesh",
     age:24
 }
-let kavita = {
+const kavita = {
     name:"Kavita",
     age:19
 }
-let himani = {
+const himani = {
     name:"Himani",
     age:15
 }
+
 function canVote(person){
     if(person.age>18){
         return `${person.name} can vote...`
