@@ -8,5 +8,5 @@ console.log(num)
 
 
 // let num = [2,5,7,7];
-// console.log(num)
+// console.log(num)            // we can't make a new array of same variable
 
