@@ -23,7 +23,7 @@ console.log(`Avarage ${total/studentMarks.length}`)
 let myName = "Kavita";
 let reverseName = "";
 for(let i = myName.length-1; i>=0; i--){
-    reverseName += myName[i];
+    reverseName += myName[i];        
     console.log(`${i} ${myName[i]}`);
 }
 console.log(reverseName);
