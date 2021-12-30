@@ -18,6 +18,6 @@ for(let anime in animeReviews){
 console.log(total);
 
 
-for(let k in [3,6,8,8]){
-    console.log(k);
+for(let k in [3,6,8,8]){             // k shows the property of array in forIn 
+    console.log(k);                  // k shows the value in array in forOf
 }
