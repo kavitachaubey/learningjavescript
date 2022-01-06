@@ -1,8 +1,8 @@
 function isPangram(sentance){
     let lowerCase = sentance.toLowerCase();
     for(let char of 'abcdefghijklmnopqrstuvwxyz'){
-        if(lowerCase.indexOf(char) === -1){
-            return false;
+        if(lowerCase.indexOf(char) === -1){       //!lowerCase.include(char);
+            return false;         
         }
     }
     return true;
