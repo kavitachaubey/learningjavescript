@@ -1,5 +1,5 @@
 function callThreeTimes(f){
-    f();
+    f();                               //f is a function.  f(),action(),...
     f();
     f();
 }
@@ -17,7 +17,7 @@ function sad(){
 
 function withLoop(action,num){
     for(let i=0;i<num;i++){
-        action();
+        action(); 
     }
 }
 // withLoop(happy,13);
