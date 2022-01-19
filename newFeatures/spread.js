@@ -8,4 +8,4 @@ const alpa = (a,b,c,d) => {
 const fruit = ['apple','mango','orange','pineapple'];
 
 alpa(fruit);
-alpa(...fruit)
+alpa(...fruit)  //spread for function call
