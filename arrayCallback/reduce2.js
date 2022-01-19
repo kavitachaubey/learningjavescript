@@ -26,5 +26,5 @@ console.log(minNum)
 
 const nums = [4,6,57,7,6].reduce((num,currentVal)=>{
     return num+currentVal;
-},1000)
+},1000)         //num = 1000
 console.log(nums)
